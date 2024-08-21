@@ -1,0 +1,196 @@
+/* All Common CSS Start  */
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* All Common CSS End */
+.navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.nav-link {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
+
+.nav-link:hover {
+  color: #4756df;
+}
+.contactBtn a {
+  padding: 15px 42px;
+  background: #6a4df4;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+}
+
+/* Header Part Start  */
+
+/* Banner Part End */
+#bannerPart {
+  background: url(../images/banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bannerOverly {
+  background: rgba(0, 0, 0, 0.62);
+  padding-top: 330px;
+  padding-bottom: 170px;
+}
+.bannerText h1 {
+  font-size: 78px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  padding-bottom: 40px;
+}
+.bannerText p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  line-height: 26px;
+  padding: 0 216px;
+}
+.bannerText a {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  padding: 15px 42px;
+  background: #6a4df4;
+  border-radius: 10px;
+}
+/* Banner Part Start  */
+
+/* Counter Part End */
+#counterPart {
+  padding: 165px 0;
+}
+.leftText h4 {
+  font-size: 25px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  color: #6a4df4;
+}
+.leftText h3 {
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  color: #151515;
+  padding-right: 15px;
+}
+.counterItem h3 {
+  font-size: 50px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  color: #151515;
+}
+.counterItem h4 {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  color: #737373;
+}
+.extraBg {
+  background: #e0fff9;
+  padding: 80px 50px;
+  border-radius: 20px;
+}
+/* Counter Part Start  */
+
+/* Seervice Part End */
+#servicePart {
+  padding: 100px 0;
+}
+.serviceItem {
+  padding: 70px;
+  text-align: center;
+  transition: .4s;
+}
+.serviceText h3 {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  color: #151515;
+  padding: 15px 0;
+}
+.serviceText p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: #737373;
+  line-height: 26px;
+}
+.serviceItem:hover {
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+  cursor: pointer;
+}
+/* Seervice Part Start  */
+
+/* Recent Work Part End */
+#recentWork{
+    padding: 50px 0;
+    background: #d5e4f5;
+}
+.workItem{
+
+}
+.workText{
+    padding: 20px;
+    background: #fff;
+}
+/* Recent Work Part Start  */
+
+/* Why Part End */
+#whyPart{
+  padding: 100px 0;
+}
+/* Why Part Start  */
+
+/* Review Part End */
+#reviewPart{
+  padding: 100px 0;
+}
+.reviewer{
+  display: flex;
+}
+.reviewerName{
+  margin-left: 20px;
+}
+.avatar{
+  width: 47px;
+  height: 47px;
+}
+/* Review Part Start  */
+
+/* Header Part End */
+/* Header Part Start  */
+
+/* Header Part End */
+/* Header Part Start  */
+
+/* Header Part End */
+/* Header Part Start  */
+
+/* Header Part End */
